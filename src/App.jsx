@@ -1,7 +1,15 @@
+import Weather from "./Components/Weather"
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
 
   return (
-    <div>Hello World</div>
+    <div>
+      <Weather />
+      <SpeedInsights />
+      <Analytics />
+    </div>
   )
 }
 
